@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e0eeef;
+  font-family: "Roboto",sans-serif;
+}
+
+.main-container{
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  height: 30px;
+  width: 150px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+li{
+  margin-top: 15px;
+}
+
+button{
+  height: 30px;
+  width: 40px;
+  background-color:white;
+  cursor: pointer;
+
+}
